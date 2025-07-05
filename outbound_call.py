@@ -45,7 +45,7 @@ class TelephonyManager:
 
 async def make_outbound_call():
     telephony = TelephonyManager()
-    await telephony.make_call("+919345828403")  # your number here
+    await telephony.make_call("+91xxxxxxxx")  # your number here
 
 if __name__ == "__main__":
     asyncio.run(make_outbound_call())
