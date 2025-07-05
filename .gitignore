@@ -1,9 +1,12 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
+
 # Python virtual environment
 venv/
 
 # Environment variables
 .env
 
+# Twilio SIP Trunk configuration file 
+outbound-trunk.json
 
-
+# LiveKit executable file 
+lk.exe
